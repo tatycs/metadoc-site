@@ -4,11 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './components/app/app.component';
 import { HomeComponent } from './components/home/home.component';
-import { CursoComponent } from './components/curso/curso.component';
+import { CursosComponent } from './components/cursos/cursos.component';
 
 const appRoutes: Routes = [
 	//{ path: 'home', component: HomeComponent },
-	{ path: 'curso', component: CursoComponent },
+	{ path: 'cursos', component: CursosComponent },
 	{
 		path: '',
 		//redirectTo: '/home',
@@ -21,7 +21,7 @@ const appRoutes: Routes = [
 	declarations: [
 		AppComponent,
 		HomeComponent,
-		CursoComponent
+		CursosComponent
 	],
 	imports: [
 		RouterModule.forRoot(appRoutes),
